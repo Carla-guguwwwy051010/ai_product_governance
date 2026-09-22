@@ -1,0 +1,482 @@
+{
+  "version": "V0.1",
+  "timestamp": "2026-09-20T08:34:12.606Z",
+  "total": 47,
+  "taxonomy": [
+    {
+      "type": "EXTRACTION_ERROR",
+      "count": 13,
+      "percentage": "27.7"
+    },
+    {
+      "type": "ROUTING_ERROR",
+      "count": 8,
+      "percentage": "17.0"
+    },
+    {
+      "type": "MISSING_FIELD",
+      "count": 24,
+      "percentage": "51.1"
+    },
+    {
+      "type": "CONFLICT_MISS",
+      "count": 2,
+      "percentage": "4.3"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "productId": "P-001",
+      "category": "手机",
+      "field": "capacity",
+      "golden": "256GB",
+      "predicted": "512GB",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 2,
+      "productId": "P-002",
+      "category": "手机",
+      "field": "review_routing",
+      "golden": "不应路由",
+      "predicted": "已路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 3,
+      "productId": "P-003",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 4,
+      "productId": "P-003",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 5,
+      "productId": "P-004",
+      "category": "手机",
+      "field": "color",
+      "golden": null,
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 6,
+      "productId": "P-004",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 7,
+      "productId": "P-004",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 8,
+      "productId": "P-004",
+      "category": "手机",
+      "field": "review_routing",
+      "golden": "应路由",
+      "predicted": "未路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 9,
+      "productId": "P-005",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 10,
+      "productId": "P-005",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 11,
+      "productId": "P-006",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 12,
+      "productId": "P-007",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 13,
+      "productId": "P-007",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 14,
+      "productId": "P-008",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 15,
+      "productId": "P-008",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 16,
+      "productId": "P-008",
+      "category": "手机",
+      "field": "review_routing",
+      "golden": "应路由",
+      "predicted": "未路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 17,
+      "productId": "P-009",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 18,
+      "productId": "P-010",
+      "category": "手机",
+      "field": "region",
+      "golden": "中国大陆",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 19,
+      "productId": "P-010",
+      "category": "手机",
+      "field": "condition",
+      "golden": "全新",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 20,
+      "productId": "P-012",
+      "category": "洗发水",
+      "field": "function",
+      "golden": "修护受损",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 21,
+      "productId": "P-012",
+      "category": "洗发水",
+      "field": "review_routing",
+      "golden": "不应路由",
+      "predicted": "已路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 22,
+      "productId": "P-013",
+      "category": "洗发水",
+      "field": "volume",
+      "golden": "1L",
+      "predicted": "1l",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 23,
+      "productId": "P-013",
+      "category": "洗发水",
+      "field": "scent",
+      "golden": null,
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 24,
+      "productId": "P-014",
+      "category": "洗发水",
+      "field": "product_name",
+      "golden": "修护水养洗发水",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 25,
+      "productId": "P-015",
+      "category": "洗发水",
+      "field": "product_name",
+      "golden": "男士去屑洗发水",
+      "predicted": "去屑洗发水",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 26,
+      "productId": "P-015",
+      "category": "洗发水",
+      "field": "scent",
+      "golden": "运动薄荷",
+      "predicted": "清新薄荷",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 27,
+      "productId": "P-016",
+      "category": "洗发水",
+      "field": "product_name",
+      "golden": "多效修护洗发水",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 28,
+      "productId": "P-018",
+      "category": "洗发水",
+      "field": "function",
+      "golden": "柔顺",
+      "type": "CONFLICT_MISS",
+      "severity": "high"
+    },
+    {
+      "id": 29,
+      "productId": "P-018",
+      "category": "洗发水",
+      "field": "conflict_detection",
+      "golden": "应检测冲突",
+      "predicted": "未检测",
+      "type": "CONFLICT_MISS",
+      "severity": "high"
+    },
+    {
+      "id": 30,
+      "productId": "P-018",
+      "category": "洗发水",
+      "field": "review_routing",
+      "golden": "应路由",
+      "predicted": "未路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 31,
+      "productId": "P-020",
+      "category": "洗发水",
+      "field": "scent",
+      "golden": null,
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 32,
+      "productId": "P-020",
+      "category": "洗发水",
+      "field": "review_routing",
+      "golden": "应路由",
+      "predicted": "未路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 33,
+      "productId": "P-021",
+      "category": "饮料",
+      "field": "review_routing",
+      "golden": "不应路由",
+      "predicted": "已路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 34,
+      "productId": "P-022",
+      "category": "饮料",
+      "field": "review_routing",
+      "golden": "不应路由",
+      "predicted": "已路由",
+      "type": "ROUTING_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 35,
+      "productId": "P-023",
+      "category": "饮料",
+      "field": "product_name",
+      "golden": "柠檬味汽水",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 36,
+      "productId": "P-024",
+      "category": "饮料",
+      "field": "package",
+      "golden": "瓶装",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 37,
+      "productId": "P-025",
+      "category": "饮料",
+      "field": "package",
+      "golden": "瓶装",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 38,
+      "productId": "P-025",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": null,
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 39,
+      "productId": "P-026",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": "柠檬",
+      "predicted": "经典",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 40,
+      "productId": "P-027",
+      "category": "饮料",
+      "field": "volume",
+      "golden": "500ml",
+      "predicted": "450ml",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 41,
+      "productId": "P-027",
+      "category": "饮料",
+      "field": "package",
+      "golden": "瓶装",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 42,
+      "productId": "P-027",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": "原味",
+      "predicted": "经典",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 43,
+      "productId": "P-028",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": "经典",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 44,
+      "productId": "P-029",
+      "category": "饮料",
+      "field": "package",
+      "golden": "瓶装",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 45,
+      "productId": "P-029",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": null,
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    },
+    {
+      "id": 46,
+      "productId": "P-030",
+      "category": "饮料",
+      "field": "package",
+      "golden": "瓶装",
+      "type": "MISSING_FIELD",
+      "severity": "high"
+    },
+    {
+      "id": 47,
+      "productId": "P-030",
+      "category": "饮料",
+      "field": "flavor",
+      "golden": "乌龙茶",
+      "predicted": "无糖乌龙茶",
+      "type": "EXTRACTION_ERROR",
+      "severity": "medium"
+    }
+  ],
+  "summary": {
+    "byType": {
+      "EXTRACTION_ERROR": 13,
+      "ROUTING_ERROR": 8,
+      "MISSING_FIELD": 24,
+      "CONFLICT_MISS": 2
+    },
+    "byCategory": {
+      "手机": 19,
+      "洗发水": 13,
+      "饮料": 15
+    }
+  }
+}

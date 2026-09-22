@@ -1,0 +1,48 @@
+{
+  "version": "V0.1",
+  "timestamp": "2026-09-20T08:34:12.604Z",
+  "architecture": "Local Evaluation + Online Demo Separation",
+  "description": "Model evaluation executed in local Claude environment; web demo displays pre-computed results",
+  "dataset": {
+    "total": 30,
+    "categories": {
+      "手机": 10,
+      "洗发水": 10,
+      "饮料": 10
+    }
+  },
+  "metrics": {
+    "total": 30,
+    "fieldAccuracy": 76.25,
+    "precision": 96.06299212598425,
+    "recall": 82.99319727891157,
+    "f1": 89.05109489051095,
+    "completeness": 20,
+    "conflictRecall": 66.66666666666666,
+    "evidenceGrounding": 100,
+    "reviewRoutingPrecision": 73.33333333333333
+  },
+  "modalityQuality": {
+    "textExtraction": 94.53125,
+    "imageOCR": 90,
+    "visualAttribute": 100,
+    "voiceAttribute": 93.18181818181817,
+    "crossModalConsistency": 66.66666666666666
+  },
+  "fieldMetrics": {
+    "brand": 100,
+    "model": 100,
+    "color": 90,
+    "capacity": 90,
+    "region": 30,
+    "condition": 30,
+    "product_name": 80,
+    "volume": 90,
+    "scent": 70,
+    "function": 80,
+    "package": 50,
+    "flavor": 40
+  },
+  "duration_ms": 31,
+  "dataDeclaration": "All data is Synthetic / Self-built. No production platform data."
+}
