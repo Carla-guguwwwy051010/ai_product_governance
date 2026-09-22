@@ -1,8 +1,7 @@
-import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/ai_product_governance/",
   plugins: [react()],
-  base: '/ai_product_governance/',
 })
